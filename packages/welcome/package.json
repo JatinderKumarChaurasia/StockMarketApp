@@ -1,0 +1,19 @@
+{
+  "name": "welcome",
+  "version": "1.0.0",
+  "description": "\"Welcome\"",
+  "main": "./lib/main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jatinder Kumar Chaurasia",
+  "license": "ISC",
+  "dependencies": {
+    "etch":"0.14.0"
+  },
+  "devDependencies": {
+    "atom-mocha-test-runner":"1.2.0",
+    "standard":"^13.1.0"
+  }
+  
+}

@@ -1,0 +1,27 @@
+{
+  "name": "stock_app",
+  "version": "1.0.0",
+  "description": "\"A basic Stock Market App\"",
+  "main": "src/mainprocess/mainindex.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "electron ."
+  },
+  "directories": {
+    "buildResources":"build",
+    "app":"build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JatinderKumarChaurasia/StockMarketApp.git"
+  },
+  "author": "Jatinder Kumar Chaurasia",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/JatinderKumarChaurasia/StockMarketApp/issues"
+  },
+  "homepage": "https://github.com/JatinderKumarChaurasia/StockMarketApp#readme"
+}
