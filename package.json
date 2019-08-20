@@ -8,8 +8,8 @@
     "start": "electron ."
   },
   "directories": {
-    "buildResources":"build",
-    "app":"build"
+    "buildResources": "build",
+    "app": "build"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/JatinderKumarChaurasia/StockMarketApp/issues"
   },
-  "homepage": "https://github.com/JatinderKumarChaurasia/StockMarketApp#readme"
+  "homepage": "https://github.com/JatinderKumarChaurasia/StockMarketApp#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
 }

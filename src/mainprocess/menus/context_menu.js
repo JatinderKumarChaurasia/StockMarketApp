@@ -6,4 +6,9 @@ const {nativeImage} = require('electron').nativeImage;
 const menu = new Menu();
 const icon = nativeImage.createFromPath(path.join(__dirname,'../static/assets/logos/refresh-button.png'))
 //const icons = nativeImage.createFromPath('/../static/assets/logos/refresh-button.png')
-menu.append(new MenuItem({role:"reload",label:"Reload",icon:icon }));
+menu.append(new MenuItem({role:"reload",label:"Reload" ,click:()=>{
+    alert("Reload Item is Clicked")
+    remote.getCurrentWindow().reload();
+}}));
+remote.getCurrentWindow.
+module.exports(menu);

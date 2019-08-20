@@ -27,14 +27,14 @@
 //     }
 // };
 function clickEvent(){
-    event.preventDefault();
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
     console.log(username + " is  isjj" + password);
     if (username === "USER" && password === "Password") {
-        console.log("User is Authenticated")
+        console.log("User is Authenticated");
     } else {
         alert("Please Enter Correct Identitty");
+        //event.preventDefault();
     }
 }
 
