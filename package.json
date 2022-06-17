@@ -18,7 +18,7 @@
   "author": "Jatinder Kumar Chaurasia",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^6.0.2"
+    "electron": "^15.5.5"
   },
   "bugs": {
     "url": "https://github.com/JatinderKumarChaurasia/StockMarketApp/issues"
